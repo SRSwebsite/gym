@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <title>ROO | مدل نوسازی، تملک و بهره‌برداری</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <style>
+    :root{
+      --primary:#2c3e50;
+      --secondary:#34495e;
+      --accent:#e67e22;
+      --bg:#f4f5f7;
+      --text:#2b2b2b;
+    }
+
+    *{
+      box-sizing:border-box;
+      font-family:"Vazirmatn","IRANSans","Tahoma","Segoe UI",sans-serif;
+    }
+
+    body{
+      margin:0;
+      background:var(--bg);
+      padding:50px;
+      color:var(--text);
+      direction:rtl;
+      text-align:right;
+    }
+
+    .card{
+      max-width:1200px;
+      margin:auto;
+      background:#fff;
+      display:grid;
+      grid-template-columns:34% 66%;
+      border-radius:14px;
+      overflow:hidden;
+      box-shadow:0 25px 60px rgba(0,0,0,.12);
+    }
+
+    /* LEFT PANEL */
+    .left{
+      background:linear-gradient(180deg,var(--primary),#1b2733);
+      color:#fff;
+      padding:45px 35px;
+    }
+
+    .model-id h1{
+      margin:0;
+      font-size:40px;
+      letter-spacing:1px;
+    }
+
+    .model-id h2{
+      margin:10px 0 35px;
+      font-size:15px;
+      font-weight:400;
+      opacity:.9;
+    }
+
+    .block{margin-bottom:34px}
+
+    .block h3{
+      margin:0 0 10px;
+      font-size:13px;
+      letter-spacing:1px;
+      color:#dce6f1;
+      border-bottom:1px solid rgba(255,255,255,.25);
+      padding-bottom:6px;
+    }
+
+    .block p,.block li{
+      font-size:14px;
+      line-height:1.9;
+      opacity:.95;
+    }
+
+    .block ul{
+      margin:0;
+      padding-right:18px;
+    }
+
+    .metric{margin-bottom:14px}
+
+    .metric span{
+      font-size:12px;
+      display:block;
+      margin-bottom:6px;
+    }
+
+    .bar{
+      height:7px;
+      background:rgba(255,255,255,.25);
+      border-radius:6px;
+      overflow:hidden;
+    }
+
+    .bar div{
+      height:100%;
+      background:linear-gradient(90deg,var(--accent),#f1c40f);
+    }
+
+    /* RIGHT PANEL */
+    .right{
+      padding:45px 55px;
+    }
+
+    .summary{
+      display:grid;
+      grid-template-columns:repeat(4,1fr);
+      gap:18px;
+      background:#e8eef5;
+      padding:22px;
+      border-radius:10px;
+      margin-bottom:40px;
+    }
+
+    .summary div{font-size:13px}
+
+    .summary strong{
+      display:block;
+      color:var(--primary);
+      font-size:12px;
+      margin-bottom:4px;
+    }
+
+    .section{margin-bottom:42px}
+
+    .section h3{
+      margin:0 0 18px;
+      font-size:20px;
+      color:var(--primary);
+    }
+
+    .item{margin-bottom:22px}
+
+    .item h4{
+      margin:0 0 8px;
+      font-size:15px;
+      color:var(--secondary);
+    }
+
+    .item p{
+      margin:0;
+      font-size:14px;
+      line-height:1.9;
+      color:#444;
+    }
+
+    .analysis{
+      background:#f8f9fb;
+      border-right:4px solid var(--accent);
+      padding:18px 20px;
+      border-radius:8px;
+      font-size:14px;
+      line-height:1.9;
+      color:#444;
+    }
+
+    .cta{
+      margin-top:50px;
+      padding:28px;
+      background:linear-gradient(90deg,var(--primary),var(--secondary));
+      color:#fff;
+      border-radius:12px;
+      font-size:15px;
+      line-height:1.9;
+      text-align:center;
+    }
+
+    @media(max-width:1024px){
+      .card{grid-template-columns:1fr}
+      .left,.right{padding:35px}
+      .summary{grid-template-columns:repeat(2,1fr)}
+    }
+
+    @media(max-width:600px){
+      body{padding:20px}
+      .model-id h1{font-size:28px}
+      .summary{grid-template-columns:1fr}
+    }
+  </style>
+</head>
+
+<body>
+
+<div class="card">
+
+  <!-- LEFT -->
+  <aside class="left">
+    <div class="model-id">
+      <h1>ROO</h1>
+      <h2>نوسازی · تملک · بهره‌برداری</h2>
+    </div>
+
+    <div class="block">
+      <h3>تعریف مدل</h3>
+      <p>
+        مدل ROO (نوسازی، تملک و بهره‌برداری) یکی از ساختارهای
+        مشارکت عمومی–خصوصی است که در آن
+        بخش خصوصی یک دارایی موجود را نوسازی کرده،
+        مالکیت کامل آن را در اختیار می‌گیرد
+        و بدون الزام به انتقال مجدد،
+        بهره‌برداری بلندمدت و کسب درآمد را بر عهده دارد.
+      </p>
+    </div>
+
+    <div class="block">
+      <h3>مالکیت و کنترل</h3>
+      <ul>
+        <li>مالکیت کامل دارایی پس از نوسازی در اختیار بخش خصوصی</li>
+        <li>کنترل کامل عملیاتی و درآمدی</li>
+        <li>عدم الزام به بازگرداندن دارایی به بخش عمومی</li>
+      </ul>
+    </div>
+
+    <div class="block">
+      <h3>شاخص‌های ریسک و پروفایل سرمایه‌گذاری</h3>
+      <div class="metric"><span>ریسک نوسازی</span><div class="bar"><div style="width:80%"></div></div></div>
+      <div class="metric"><span>میزان در معرض بودن سرمایه</span><div class="bar"><div style="width:70%"></div></div></div>
+      <div class="metric"><span>ریسک درآمدی</span><div class="bar"><div style="width:90%"></div></div></div>
+      <div class="metric"><span>کنترل بلندمدت دارایی</span><div class="bar"><div style="width:95%"></div></div></div>
+    </div>
+
+    <div class="block">
+      <h3>پروژه‌های شاخص</h3>
+      <iframe src="publish/slider1.html"
+        style="width:100%;height:220px;border:none;border-radius:10px;background:#000"></iframe>
+    </div>
+  </aside>
+
+  <!-- RIGHT -->
+  <main class="right">
+
+    <div class="summary">
+      <div><strong>دسته‌بندی مدل</strong>دارایی‌های موجود با مالکیت خصوصی</div>
+      <div><strong>تمرکز سرمایه‌گذاری</strong>نوسازی و بهره‌برداری</div>
+      <div><strong>افق زمانی</strong>میان‌مدت تا بلندمدت</div>
+      <div><strong>بخش‌های متداول</strong>انرژی، حمل‌ونقل، خدمات زیربنایی</div>
+    </div>
+
+    <section class="section">
+      <h3>کاربردهای راهبردی</h3>
+
+      <div class="item">
+        <h4>نیروگاه‌ها و تأسیسات خدماتی</h4>
+        <p>
+          ROO برای نیروگاه‌ها،
+          تأسیسات آب و فاضلاب
+          و دارایی‌های صنعتی موجود
+          به‌کار می‌رود؛
+          جایی که مالکیت خصوصی
+          انگیزه لازم برای
+          افزایش بهره‌وری و سودآوری
+          را فراهم می‌کند.
+        </p>
+      </div>
+
+      <div class="item">
+        <h4>زیرساخت‌های حمل‌ونقل و دارایی‌های امتیازی</h4>
+        <p>
+          جاده‌ها، پل‌ها و بنادر
+          که پس از نوسازی
+          به‌صورت خصوصی
+          و بر اساس عوارض یا تعرفه
+          بهره‌برداری می‌شوند،
+          نمونه‌های مناسب مدل ROO هستند.
+        </p>
+      </div>
+    </section>
+
+    <section class="section">
+      <h3>تحلیل تناسب پروژه</h3>
+      <div class="analysis">
+        ROO برای دارایی‌های بالغ
+        با پتانسیل درآمدی مشخص مناسب است؛
+        به‌ویژه در شرایطی که
+        دولت تمایل به واگذاری مالکیت
+        و تمرکز بر نقش تنظیم‌گری دارد.
+        این مدل انگیزه‌های قوی
+        برای نوسازی و بهره‌برداری کارآمد ایجاد می‌کند.
+      </div>
+    </section>
+
+    <section class="section">
+      <h3>ریسک‌ها و سناریوهای کلیدی</h3>
+      <div class="item">
+        <p>
+          ریسک‌های اصلی شامل
+          برآورد بیش‌ازحد درآمد،
+          افزایش هزینه‌های نوسازی
+          و تغییرات مقرراتی است.
+          کنترل این ریسک‌ها
+          از طریق بررسی دقیق فنی و مالی،
+          ساختار تأمین مالی مناسب
+          و توانمندی عملیاتی سرمایه‌گذار انجام می‌شود.
+        </p>
+      </div>
+    </section>
+
+    <section class="section">
+      <h3>مدل‌های مشابه و جایگزین</h3>
+      <div class="item">
+        <p>ROT · BOO · DBOT · DBFO</p>
+      </div>
+    </section>
+
+    <div class="cta">
+      این پلتفرم از پروژه‌های مبتنی بر ROO پشتیبانی می‌کند
+      و امکان تملک خصوصی،
+      نوسازی تخصصی
+      و بهره‌برداری بلندمدت دارایی‌ها
+      را در چارچوب‌های قراردادی شفاف فراهم می‌سازد.
+    </div>
+
+  </main>
+
+</div>
+
+</body>
+</html>
