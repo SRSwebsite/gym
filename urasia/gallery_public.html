@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects</title>
+  <link rel="stylesheet" href="file/gallery_public.css">
+</head>
+<body>
+<header class="site-header">
+    <nav class="ux-nav">
+        <div class="ux-nav-container">
+
+            <!-- Logo -->
+            <div class="ux-logo">
+    <a href="index.html" class="logo-wrap">
+        <img src="img/logo.png" alt="Company Logo">
+        <span class="logo-title">EURASIA-EPC</span>
+    </a>
+</div>
+
+
+            <!-- Toggle (Mobile) -->
+            <input type="checkbox" id="nav-toggle">
+            <label for="nav-toggle" class="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+
+            <!-- Menu -->
+           <ul class="ux-menu">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="gallery_public.html">Projects</a></li>
+                <li><a href="c_p_i.HTML">Contracting</a></li>
+                <li><a href="Focus Areas.html">Focus Areas</a></li>
+                <li><a href="i_l_s.html">Investment & Legal</a></li>
+                <li><a href="p_o_m.html">Partnerships</a></li>
+                <li><a href="p_f.html">Financing</a></li>
+                <li><a href="c_l_m_Eurasian.html">Eurasian Models</a></li>
+				
+				 <!-- CTA Button -->
+                <li class="menu-cta">
+                    <a href="gallery_public-fa.html">🌐</a>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+	<div class="header-grid">
+
+    <!-- لوگو / عنوان -->
+    <div class="header-item header-logo">
+      <span>Projects</span>
+    </div>
+
+    <!-- سرچ -->
+   <div class="header-item header-search">
+  <input
+    type="search"
+    id="projectSearch"
+    placeholder="Search project title..."
+    autocomplete="off"
+  />
+  <button id="searchBtn">search</button>
+</div>
+
+
+    <!-- دکمه‌ها / آیتم‌های بعدی -->
+    <div class="header-item header-actions">
+      <button class="reload-btn" onclick="hardReload()">Refresh</button>
+    </div>
+
+  </div>
+</header>
+        
+  
+</header>
+
+
+
+<div id="accordionContainer" class="projects-container"></div>
+
+<script src="file/gallery_public.js"></script>
+</body>
+</html>
