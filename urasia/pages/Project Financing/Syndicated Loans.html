@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Syndicated Loans | Group Lending for Projects</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    :root{
+      --primary:#2e4a36;
+      --secondary:#5a7d5c;
+      --accent:#f4a261;
+      --bg:#f9fafb;
+      --text:#2b2b2b;
+    }
+
+    *{box-sizing:border-box;font-family:"Inter","Segoe UI",Tahoma,Arial,sans-serif}
+    body{margin:0;background:var(--bg);padding:50px;color:var(--text)}
+    .card{max-width:1200px;margin:auto;background:#fff;display:grid;grid-template-columns:34% 66%;border-radius:14px;overflow:hidden;box-shadow:0 20px 50px rgba(0,0,0,.12)}
+
+    /* LEFT PANEL */
+    .left{background:linear-gradient(180deg,var(--primary),#1b2c21);color:#fff;padding:45px 35px}
+    .model-id h1{margin:0;font-size:48px;letter-spacing:1px;text-transform:uppercase}
+    .model-id h2{margin:10px 0 35px;font-size:16px;font-weight:400;opacity:.9}
+
+    .block{margin-bottom:34px}
+    .block h3{margin:0 0 10px;font-size:14px;letter-spacing:1.2px;text-transform:uppercase;color:#cfe8d4;border-bottom:1px solid rgba(255,255,255,.25);padding-bottom:6px}
+    .block p,.block li{font-size:14px;line-height:1.8;opacity:.95}
+    .block ul{margin:0;padding-left:20px}
+
+    .metric{margin-bottom:16px}
+    .metric span{font-size:13px;display:block;margin-bottom:6px;text-transform:uppercase;letter-spacing:0.5px}
+    .bar{height:8px;background:rgba(255,255,255,.2);border-radius:6px;overflow:hidden}
+    .bar div{height:100%;background:linear-gradient(90deg,var(--accent),#f7c981)}
+
+    /* RIGHT PANEL */
+    .right{padding:45px 55px}
+    .summary{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;background:#e8f0ec;padding:22px;border-radius:10px;margin-bottom:40px}
+    .summary div{font-size:13px}
+    .summary strong{display:block;color:var(--primary);font-size:12px;margin-bottom:4px}
+
+    .section{margin-bottom:42px}
+    .section h3{margin:0 0 18px;font-size:20px;color:var(--primary);border-bottom:1px solid #d0ded5;padding-bottom:6px}
+    .item{margin-bottom:22px}
+    .item h4{margin:0 0 8px;font-size:15px;color:var(--secondary)}
+    .item p{margin:0;font-size:14px;line-height:1.85;color:#444}
+
+    .analysis{background:#f7fafc;border-left:4px solid var(--accent);padding:18px 20px;border-radius:8px;font-size:14px;line-height:1.8;color:#444}
+
+    .cta{margin-top:50px;padding:28px;background:linear-gradient(90deg,var(--primary),var(--secondary));color:#fff;border-radius:12px;font-size:15px;line-height:1.7;text-align:center}
+
+    /* Responsiveness */
+    @media(max-width:1024px){
+      .card{grid-template-columns:1fr}
+      .left,.right{padding:35px}
+      .summary{grid-template-columns:repeat(2,1fr)}
+    }
+    @media(max-width:600px){
+      body{padding:20px}
+      .model-id h1{font-size:38px}
+      .summary{grid-template-columns:1fr}
+    }
+  </style>
+</head>
+<body>
+
+<div class="card">
+
+  <!-- LEFT PANEL -->
+  <aside class="left">
+    <div class="model-id">
+      <h1>Syndicated Loans</h1>
+      <h2>Group Lending for Projects</h2>
+    </div>
+
+    <div class="block">
+      <h3>Model Definition</h3>
+      <p>
+        Syndicated Loans involve **multiple banks or financial institutions lending jointly to a borrower**, usually for large-scale projects. 
+        A lead arranger coordinates the loan, while each participant takes on a share of the total amount and associated risks.
+      </p>
+    </div>
+
+    <div class="block">
+      <h3>Ownership & Control</h3>
+      <ul>
+        <li>Project ownership typically with the borrower or SPV</li>
+        <li>Lead bank manages the syndicate and loan administration</li>
+        <li>Participating banks share repayment risk proportionally</li>
+      </ul>
+    </div>
+
+    <div class="block">
+      <h3>Key Performance Metrics</h3>
+      <div class="metric"><span>Loan Size Coverage</span><div class="bar"><div style="width:90%"></div></div></div>
+      <div class="metric"><span>Risk Distribution</span><div class="bar"><div style="width:85%"></div></div></div>
+      <div class="metric"><span>Repayment Reliability</span><div class="bar"><div style="width:80%"></div></div></div>
+      <div class="metric"><span>Credit Quality</span><div class="bar"><div style="width:75%"></div></div></div>
+    </div>
+
+    <div class="block">
+      <h3>Featured Projects</h3>
+      <iframe src="publish/slider1.html" style="width:100%;height:220px;border:none;border-radius:10px;background:#000"></iframe>
+    </div>
+  </aside>
+
+  <!-- RIGHT PANEL -->
+  <main class="right">
+    <div class="summary">
+      <div><strong>Model Category</strong>Financial / Loan Syndication</div>
+      <div><strong>Payment Mechanism</strong>Project or Company Cash Flows</div>
+      <div><strong>Time Horizon</strong>Medium to Long-Term</div>
+      <div><strong>Typical Sectors</strong>Infrastructure, Energy, Transport, Large Corporate Projects</div>
+    </div>
+
+    <section class="section">
+      <h3>Strategic Applications</h3>
+      <div class="item">
+        <h4>Large-Scale Infrastructure & Energy</h4>
+        <p>
+          Suitable for projects requiring **high-volume loans**, where risk needs to be **shared among multiple lenders**.
+        </p>
+      </div>
+      <div class="item">
+        <h4>High-Capital Corporate Projects</h4>
+        <p>
+          Enables companies to **access financing beyond a single bank’s capacity**, distributing risk and leveraging multiple financial institutions.
+        </p>
+      </div>
+    </section>
+
+    <section class="section">
+      <h3>Project Suitability Analysis</h3>
+      <div class="analysis">
+        Syndicated Loans are suitable for **projects with substantial capital requirements**, moderate to high risks, and a **need for coordinated group lending**.
+      </div>
+    </section>
+
+    <section class="section">
+      <h3>Risk Considerations & Mitigation</h3>
+      <div class="item">
+        <p>
+          Risks include **borrower default, project delays, and market fluctuations**. Mitigation involves **loan covenants, collateral, and proportional risk allocation among lenders**.
+        </p>
+      </div>
+    </section>
+
+    <section class="section">
+      <h3>Comparable & Alternative Models</h3>
+      <div class="item">
+        <p>Project Finance · Structured Loans · Mezzanine Financing · Club Deals</p>
+      </div>
+    </section>
+
+    <div class="cta">
+      This platform supports Syndicated Loans, enabling multiple financial institutions to **share risk, finance large-scale projects, and provide structured group lending efficiently**.
+    </div>
+  </main>
+
+</div>
+
+</body>
+</html>
