@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <title>BOLT | مدل ساخت، بهره‌برداری، اجاره و انتقال</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <style>
+    :root{
+      --primary:#3a2f2f;
+      --secondary:#8c5e58;
+      --accent:#d4a373;
+      --bg:#f6f5f3;
+      --text:#2b2b2b;
+    }
+
+    *{
+      box-sizing:border-box;
+      font-family:"Vazirmatn","IRANSans","Tahoma","Segoe UI",sans-serif;
+    }
+
+    body{
+      margin:0;
+      background:var(--bg);
+      padding:50px;
+      color:var(--text);
+      direction:rtl;
+      text-align:right;
+    }
+
+    .card{
+      max-width:1200px;
+      margin:auto;
+      background:#fff;
+      display:grid;
+      grid-template-columns:34% 66%;
+      border-radius:14px;
+      overflow:hidden;
+      box-shadow:0 25px 60px rgba(0,0,0,.12);
+    }
+
+    /* LEFT PANEL */
+    .left{
+      background:linear-gradient(180deg,var(--primary),#221a1a);
+      color:#fff;
+      padding:45px 35px;
+    }
+
+    .model-id h1{
+      margin:0;
+      font-size:40px;
+      letter-spacing:1px;
+    }
+
+    .model-id h2{
+      margin:10px 0 35px;
+      font-size:15px;
+      font-weight:400;
+      opacity:.9;
+    }
+
+    .block{margin-bottom:34px}
+
+    .block h3{
+      margin:0 0 10px;
+      font-size:13px;
+      letter-spacing:1px;
+      color:#f1e4d3;
+      border-bottom:1px solid rgba(255,255,255,.25);
+      padding-bottom:6px;
+    }
+
+    .block p,.block li{
+      font-size:14px;
+      line-height:1.9;
+      opacity:.95;
+    }
+
+    .block ul{
+      margin:0;
+      padding-right:18px;
+    }
+
+    .metric{margin-bottom:14px}
+
+    .metric span{
+      font-size:12px;
+      display:block;
+      margin-bottom:6px;
+    }
+
+    .bar{
+      height:7px;
+      background:rgba(255,255,255,.25);
+      border-radius:6px;
+      overflow:hidden;
+    }
+
+    .bar div{
+      height:100%;
+      background:linear-gradient(90deg,var(--accent),#f1d6b8);
+    }
+
+    /* RIGHT PANEL */
+    .right{
+      padding:45px 55px;
+    }
+
+    .summary{
+      display:grid;
+      grid-template-columns:repeat(4,1fr);
+      gap:18px;
+      background:#efeae4;
+      padding:22px;
+      border-radius:10px;
+      margin-bottom:40px;
+    }
+
+    .summary div{font-size:13px}
+
+    .summary strong{
+      display:block;
+      color:var(--primary);
+      font-size:12px;
+      margin-bottom:4px;
+    }
+
+    .section{margin-bottom:42px}
+
+    .section h3{
+      margin:0 0 18px;
+      font-size:20px;
+      color:var(--primary);
+    }
+
+    .item{margin-bottom:22px}
+
+    .item h4{
+      margin:0 0 8px;
+      font-size:15px;
+      color:var(--secondary);
+    }
+
+    .item p{
+      margin:0;
+      font-size:14px;
+      line-height:1.9;
+      color:#444;
+    }
+
+    .analysis{
+      background:#faf9f7;
+      border-right:4px solid var(--accent);
+      padding:18px 20px;
+      border-radius:8px;
+      font-size:14px;
+      line-height:1.9;
+      color:#444;
+    }
+
+    .cta{
+      margin-top:50px;
+      padding:28px;
+      background:linear-gradient(90deg,var(--primary),var(--secondary));
+      color:#fff;
+      border-radius:12px;
+      font-size:15px;
+      line-height:1.9;
+      text-align:center;
+    }
+
+    @media(max-width:1024px){
+      .card{grid-template-columns:1fr}
+      .left,.right{padding:35px}
+      .summary{grid-template-columns:repeat(2,1fr)}
+    }
+
+    @media(max-width:600px){
+      body{padding:20px}
+      .model-id h1{font-size:28px}
+      .summary{grid-template-columns:1fr}
+    }
+  </style>
+</head>
+
+<body>
+
+<div class="card">
+
+  <!-- LEFT -->
+  <aside class="left">
+    <div class="model-id">
+      <h1>BOLT</h1>
+      <h2>ساخت · بهره‌برداری · اجاره · انتقال</h2>
+    </div>
+
+    <div class="block">
+      <h3>تعریف مدل</h3>
+      <p>
+        مدل BOLT (ساخت، بهره‌برداری، اجاره و انتقال)
+        ساختاری ترکیبی در پروژه‌های مشارکت عمومی–خصوصی است
+        که در آن بخش خصوصی دارایی را احداث کرده،
+        آن را بهره‌برداری می‌کند
+        و طی یک دوره مشخص به نهاد عمومی یا سازمانی اجاره می‌دهد.
+        پس از پایان دوره اجاره،
+        مالکیت دارایی به بهره‌بردار منتقل می‌شود.
+      </p>
+    </div>
+
+    <div class="block">
+      <h3>مالکیت و کنترل</h3>
+      <ul>
+        <li>مالکیت دارایی در دوره اجاره با بخش خصوصی</li>
+        <li>مسئولیت بهره‌برداری بر عهده توسعه‌دهنده</li>
+        <li>انتقال مالکیت در پایان دوره قرارداد</li>
+      </ul>
+    </div>
+
+    <div class="block">
+      <h3>شاخص‌های ریسک و ساختار پروژه</h3>
+      <div class="metric"><span>سرمایه‌گذاری اولیه</span><div class="bar"><div style="width:75%"></div></div></div>
+      <div class="metric"><span>پایداری درآمد اجاره</span><div class="bar"><div style="width:85%"></div></div></div>
+      <div class="metric"><span>ریسک تقاضا</span><div class="bar"><div style="width:60%"></div></div></div>
+      <div class="metric"><span>تعهدات بهره‌برداری</span><div class="bar"><div style="width:70%"></div></div></div>
+    </div>
+
+    <div class="block">
+      <h3>پروژه‌های شاخص</h3>
+      <iframe src="publish/slider1.html"
+        style="width:100%;height:220px;border:none;border-radius:10px;background:#000"></iframe>
+    </div>
+  </aside>
+
+  <!-- RIGHT -->
+  <main class="right">
+
+    <div class="summary">
+      <div><strong>نوع مدل</strong>مشارکت اجاره‌محور</div>
+      <div><strong>منبع درآمد</strong>پرداخت‌های بلندمدت اجاره</div>
+      <div><strong>افق زمانی</strong>میان‌مدت تا بلندمدت</div>
+      <div><strong>بخش‌های متداول</strong>املاک و تأسیسات عمومی</div>
+    </div>
+
+    <section class="section">
+      <h3>کاربردهای راهبردی</h3>
+
+      <div class="item">
+        <h4>ساختمان‌ها و تأسیسات عمومی</h4>
+        <p>
+          مدل BOLT به‌طور گسترده
+          برای مدارس، بیمارستان‌ها،
+          ساختمان‌های اداری،
+          مراکز قضایی و خدماتی استفاده می‌شود؛
+          جایی که دولت ترجیح می‌دهد
+          به‌جای سرمایه‌گذاری مستقیم،
+          از سازوکار اجاره بلندمدت استفاده کند.
+        </p>
+      </div>
+
+      <div class="item">
+        <h4>دارایی‌های تجاری و چندمنظوره</h4>
+        <p>
+          مجتمع‌های اداری،
+          مراکز لجستیکی
+          و پروژه‌های اقامتی نهادی
+          به‌دلیل جریان نقدی قابل پیش‌بینی
+          و شرایط خروج شفاف،
+          گزینه‌های مناسبی برای ساختار BOLT هستند.
+        </p>
+      </div>
+    </section>
+
+    <section class="section">
+      <h3>تحلیل تناسب پروژه</h3>
+      <div class="analysis">
+        مدل BOLT برای دارایی‌هایی مناسب است
+        که دارای بهره‌بردار معتبر
+        و تقاضای پایدار هستند.
+        این ساختار،
+        هزینه ساخت را به بخش خصوصی منتقل کرده
+        و در عین حال
+        امکان استفاده از دارایی را
+        برای نهادهای عمومی
+        از طریق قراردادهای اجاره بلندمدت فراهم می‌کند.
+      </div>
+    </section>
+
+    <section class="section">
+      <h3>ریسک‌ها و ملاحظات کلیدی</h3>
+      <div class="item">
+        <p>
+          ریسک‌های اصلی شامل
+          اعتبار اجاره‌کننده،
+          بازنگری قرارداد اجاره،
+          هزینه‌های نگهداری
+          و وضعیت دارایی در زمان انتقال است.
+          قراردادهای BOLT موفق،
+          مسئولیت‌های تعمیر،
+          بیمه،
+          سطح عملکرد
+          و شرایط تحویل نهایی
+          را به‌صورت شفاف تعیین می‌کنند.
+        </p>
+      </div>
+    </section>
+
+    <section class="section">
+      <h3>مدل‌های مشابه و جایگزین</h3>
+      <div class="item">
+        <p>BOT · BOOT · DBFO · Lease–Purchase</p>
+      </div>
+    </section>
+
+    <div class="cta">
+      این پلتفرم امکان طراحی و اجرای پروژه‌های مبتنی بر BOLT
+      را از طریق هم‌راستاسازی توسعه‌دهندگان،
+      سرمایه‌گذاران مالی
+      و بهره‌برداران دولتی
+      در قالب قراردادهای اجاره بانکی‌پذیر و شفاف فراهم می‌سازد.
+    </div>
+
+  </main>
+
+</div>
+
+</body>
+</html>
