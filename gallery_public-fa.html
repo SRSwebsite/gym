@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects</title>
+  <link rel="stylesheet" href="file/gallery_public.css">
+</head>
+<body>
+<header class="site-header">
+    <nav class="ux-nav">
+        <div class="ux-nav-container">
+
+            <!-- Logo -->
+            <div class="ux-logo">
+    <a href="index.html" class="logo-wrap">
+        <img src="img/logo.png" alt="Company Logo">
+        <span class="logo-title">EURASIA-EPC</span>
+    </a>
+</div>
+
+
+            <!-- Toggle (Mobile) -->
+            <input type="checkbox" id="nav-toggle">
+            <label for="nav-toggle" class="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+
+            <!-- Menu -->
+                       <!-- Menu -->
+<ul class="ux-menu">
+    <li><a href="index-fa.html" class="active">صفحه اصلی</a></li>
+    <li><a href="about-fa.html">درباره ما</a></li>
+    <li><a href="gallery_public-fa.html">پروژه‌ها</a></li>
+    <li><a href="c_p_i-fa.html">قراردادها</a></li>
+    <li><a href="Focus Areas-fa.html">حوزه‌های تمرکز</a></li>
+    <li><a href="i_l_s-fa.html">سرمایه‌گذاری و حقوقی</a></li>
+    <li><a href="p_o_m-fa.html">مدل‌های مشارکت</a></li>
+    <li><a href="P_F-fa.html">تأمین مالی پروژه</a></li>
+    <li><a href="c_l_m_Eurasian-fa.html">مدل‌های اوراسیایی</a></li>
+
+    <!-- CTA Button -->
+    <li class="menu-cta">
+        <a href="gallery_public.html">🌐</a>
+    </li>
+</ul>
+
+        </div>
+    </nav>
+	<div class="header-grid">
+
+    <!-- لوگو / عنوان -->
+    <div class="header-item header-logo">
+      <span>Projects</span>
+    </div>
+
+    <!-- سرچ -->
+   <div class="header-item header-search">
+  <input
+    type="search"
+    id="projectSearch"
+    placeholder="عنوان پروژه را جستجو کنید..."
+    autocomplete="off"
+  />
+  <button id="searchBtn">جستچو</button>
+</div>
+
+
+    <!-- دکمه‌ها / آیتم‌های بعدی -->
+    <div class="header-item header-actions">
+      <button class="reload-btn" onclick="hardReload()">بارگذاری مجدد</button>
+    </div>
+
+  </div>
+</header>
+        
+  
+</header>
+
+
+
+<div id="accordionContainer" class="projects-container"></div>
+
+<script src="file/gallery_public.js"></script>
+</body>
+</html>
