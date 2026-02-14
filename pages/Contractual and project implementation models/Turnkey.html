@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Turnkey / LSTK – Lump Sum Turnkey | Project Delivery Model</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    :root{
+      --primary:#1a344b;       /* Deep Industrial Blue */
+      --secondary:#45627a;     /* Steel Gray */
+      --accent:#f2a541;        /* Highlight / Progress */
+      --bg:#f0f3f6;            /* Light Gray Background */
+      --text:#2b2b2b;
+    }
+
+    *{box-sizing:border-box;font-family:"Inter","Segoe UI",Tahoma,Arial,sans-serif}
+    body{margin:0;background:var(--bg);padding:50px;color:var(--text)}
+    .card{max-width:1200px;margin:auto;background:#fff;display:grid;grid-template-columns:34% 66%;border-radius:14px;overflow:hidden;box-shadow:0 20px 50px rgba(0,0,0,.12)}
+
+    /* LEFT PANEL */
+    .left{background:linear-gradient(180deg,var(--primary),#0f1e30);color:#fff;padding:45px 35px}
+    .model-id h1{margin:0;font-size:48px;letter-spacing:1px;text-transform:uppercase}
+    .model-id h2{margin:10px 0 35px;font-size:16px;font-weight:400;opacity:.9}
+
+    .block{margin-bottom:34px}
+    .block h3{margin:0 0 10px;font-size:14px;letter-spacing:1.2px;text-transform:uppercase;color:#cce0f0;border-bottom:1px solid rgba(255,255,255,.25);padding-bottom:6px}
+    .block p,.block li{font-size:14px;line-height:1.8;opacity:.95}
+    .block ul{margin:0;padding-left:20px}
+
+    .metric{margin-bottom:16px}
+    .metric span{font-size:13px;display:block;margin-bottom:6px;text-transform:uppercase;letter-spacing:0.5px}
+    .bar{height:8px;background:rgba(255,255,255,.2);border-radius:6px;overflow:hidden}
+    .bar div{height:100%;background:linear-gradient(90deg,var(--accent),#f7c981)}
+
+    /* RIGHT PANEL */
+    .right{padding:45px 55px}
+    .summary{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;background:#e6edf3;padding:22px;border-radius:10px;margin-bottom:40px}
+    .summary div{font-size:13px}
+    .summary strong{display:block;color:var(--primary);font-size:12px;margin-bottom:4px}
+
+    .section{margin-bottom:42px}
+    .section h3{margin:0 0 18px;font-size:20px;color:var(--primary);border-bottom:1px solid #d0d9df;padding-bottom:6px}
+    .item{margin-bottom:22px}
+    .item h4{margin:0 0 8px;font-size:15px;color:var(--secondary)}
+    .item p{margin:0;font-size:14px;line-height:1.85;color:#444}
+
+    .analysis{background:#f7fafc;border-left:4px solid var(--accent);padding:18px 20px;border-radius:8px;font-size:14px;line-height:1.8;color:#444}
+
+    .cta{margin-top:50px;padding:28px;background:linear-gradient(90deg,var(--primary),var(--secondary));color:#fff;border-radius:12px;font-size:15px;line-height:1.7;text-align:center}
+
+    /* Responsiveness */
+    @media(max-width:1024px){
+      .card{grid-template-columns:1fr}
+      .left,.right{padding:35px}
+      .summary{grid-template-columns:repeat(2,1fr)}
+    }
+    @media(max-width:600px){
+      body{padding:20px}
+      .model-id h1{font-size:38px}
+      .summary{grid-template-columns:1fr}
+    }
+  </style>
+</head>
+<body>
+
+<div class="card">
+
+  <!-- LEFT PANEL -->
+  <aside class="left">
+    <div class="model-id">
+      <h1>Turnkey / LSTK</h1>
+      <h2>Lump Sum Turnkey</h2>
+    </div>
+
+    <div class="block">
+      <h3>Model Definition</h3>
+      <p>
+        The **Turnkey / LSTK (Lump Sum Turnkey)** model is a **full project delivery approach** where the contractor is responsible for engineering, procurement, construction, and commissioning. The contractor delivers a fully operational asset at a **fixed price**, minimizing cost uncertainty for the owner while ensuring operational readiness.
+      </p>
+    </div>
+
+    <div class="block">
+      <h3>Ownership & Control</h3>
+      <ul>
+        <li>Ownership remains with the project sponsor</li>
+        <li>Contractor accountable for delivering fully operational facility</li>
+        <li>All execution risk (cost, schedule, quality) primarily on contractor</li>
+      </ul>
+    </div>
+
+    <div class="block">
+      <h3>Key Performance Metrics</h3>
+      <div class="metric"><span>Design & Engineering Quality</span><div class="bar"><div style="width:85%"></div></div></div>
+      <div class="metric"><span>Procurement Efficiency</span><div class="bar"><div style="width:80%"></div></div></div>
+      <div class="metric"><span>Construction Completion</span><div class="bar"><div style="width:90%"></div></div></div>
+      <div class="metric"><span>Operational Readiness</span><div class="bar"><div style="width:75%"></div></div></div>
+    </div>
+
+    <div class="block">
+      <h3>Featured Projects</h3>
+      <iframe src="publish/slider1.html" style="width:100%;height:220px;border:none;border-radius:10px;background:#000"></iframe>
+    </div>
+  </aside>
+
+  <!-- RIGHT PANEL -->
+  <main class="right">
+    <div class="summary">
+      <div><strong>Model Category</strong>Turnkey / Lump Sum</div>
+      <div><strong>Payment Mechanism</strong>Fixed Price / Milestone-Based</div>
+      <div><strong>Time Horizon</strong>Medium to Long-Term</div>
+      <div><strong>Typical Sectors</strong>Industrial, Energy, Infrastructure</div>
+    </div>
+
+    <section class="section">
+      <h3>Strategic Applications</h3>
+      <div class="item">
+        <h4>Greenfield Industrial Projects</h4>
+        <p>
+          LSTK contracts are ideal for projects where owners require a **fully delivered and operational asset** at a fixed price, including design, procurement, construction, and commissioning.
+        </p>
+      </div>
+      <div class="item">
+        <h4>Infrastructure & Utilities</h4>
+        <p>
+          Applicable to roads, bridges, pipelines, and power/water plants where **fixed-price turnkey delivery** reduces cost uncertainty and ensures schedule adherence.
+        </p>
+      </div>
+    </section>
+
+    <section class="section">
+      <h3>Project Suitability Analysis</h3>
+      <div class="analysis">
+        Turnkey / LSTK is suitable for projects with **well-defined scope**, high technical complexity, and need for **guaranteed completion and operational readiness** at handover.
+      </div>
+    </section>
+
+    <section class="section">
+      <h3>Risk Considerations & Mitigation</h3>
+      <div class="item">
+        <p>
+          Key risks include design errors, procurement delays, construction defects, and schedule slippage. Mitigation relies on **fixed-price contracts, milestone payments, quality assurance, and performance guarantees**.
+        </p>
+      </div>
+    </section>
+
+    <section class="section">
+      <h3>Comparable & Alternative Models</h3>
+      <div class="item">
+        <p>EPC · EPCC · EPCF · Turnkey / Lump Sum Contracts</p>
+      </div>
+    </section>
+
+    <div class="cta">
+      This platform supports Turnkey / LSTK projects by connecting owners with contractors capable of delivering **fully operational assets at fixed price**, ensuring schedule adherence, quality, and risk mitigation.
+    </div>
+  </main>
+
+</div>
+
+</body>
+</html>
